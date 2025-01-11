@@ -47,43 +47,74 @@
   <!-- Typing Text -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text x="100" y="75">
-      <!-- Tspans for each character with cursor before it -->
+      <!-- Each tspan represents a step in the typing animation -->
+      <tspan id="t0" opacity="0">_</tspan>
       <tspan id="t1" opacity="0">_H</tspan>
-      <tspan id="t2" opacity="0">_i</tspan>
-      <tspan id="t3" opacity="0">_,</tspan>
-      <tspan id="t4" opacity="0"> </tspan>
-      <tspan id="t5" opacity="0">_I</tspan>
-      <tspan id="t6" opacity="0"> </tspan>
-      <tspan id="t7" opacity="0">_a</tspan>
-      <tspan id="t8" opacity="0">_m</tspan>
-      <tspan id="t9" opacity="0"> </tspan>
-      <tspan id="t10" opacity="0">_N</tspan>
-      <tspan id="t11" opacity="0">_i</tspan>
-      <tspan id="t12" opacity="0">_k</tspan>
-      <tspan id="t13" opacity="0">_l</tspan>
-      <tspan id="t14" opacity="0">_a</tspan>
-      <tspan id="t15" opacity="0">_s</tspan>
-      <tspan id="t16" opacity="0">_ :)</tspan>
+      <tspan id="t2" opacity="0">Hi_</tspan>
+      <tspan id="t3" opacity="0">Hi _</tspan>
+      <tspan id="t4" opacity="0">Hi I_</tspan>
+      <tspan id="t5" opacity="0">Hi I _</tspan>
+      <tspan id="t6" opacity="0">Hi I a_</tspan>
+      <tspan id="t7" opacity="0">Hi I am_</tspan>
+      <tspan id="t8" opacity="0">Hi I am _</tspan>
+      <tspan id="t9" opacity="0">Hi I am N_</tspan>
+      <tspan id="t10" opacity="0">Hi I am Ni_</tspan>
+      <tspan id="t11" opacity="0">Hi I am Nik_</tspan>
+      <tspan id="t12" opacity="0">Hi I am Nikl_</tspan>
+      <tspan id="t13" opacity="0">Hi I am Nikla_</tspan>
+      <tspan id="t14" opacity="0">Hi I am Niklas_</tspan>
+      <tspan id="t15" opacity="0">Hi I am Niklas_ :)</tspan>
     </text>
 
-    <!-- Animations for each character -->
-    <!-- Each character appears at 0.5s intervals with a 0.1s fade-in -->
+    <!-- Animations for each tspan -->
+    <!-- Each tspan appears at 0.5s intervals and fades out after 0.5s -->
+    <animate href="#t0" attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t0" attributeName="opacity" from="1" to="0" begin="0.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t1" attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t1" attributeName="opacity" from="1" to="0" begin="1.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t2" attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t2" attributeName="opacity" from="1" to="0" begin="1.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t3" attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t3" attributeName="opacity" from="1" to="0" begin="2.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t4" attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t4" attributeName="opacity" from="1" to="0" begin="2.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t5" attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t5" attributeName="opacity" from="1" to="0" begin="3.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t6" attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t6" attributeName="opacity" from="1" to="0" begin="3.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t7" attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t7" attributeName="opacity" from="1" to="0" begin="4.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t8" attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t8" attributeName="opacity" from="1" to="0" begin="4.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t9" attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t9" attributeName="opacity" from="1" to="0" begin="5.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t10" attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t10" attributeName="opacity" from="1" to="0" begin="5.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t11" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t11" attributeName="opacity" from="1" to="0" begin="6.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t12" attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t12" attributeName="opacity" from="1" to="0" begin="6.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t13" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t13" attributeName="opacity" from="1" to="0" begin="7.0s" dur="0.1s" fill="freeze" />
+
     <animate href="#t14" attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t14" attributeName="opacity" from="1" to="0" begin="7.5s" dur="0.1s" fill="freeze" />
+
     <animate href="#t15" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t16" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
+    <!-- No fade out for the final text -->
   </g>
 
 </svg>
