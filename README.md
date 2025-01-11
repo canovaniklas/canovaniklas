@@ -1,57 +1,53 @@
-# Welcome to My Mathematical Space 💚
+![Banner](./assets/banner.svg)
+
+---
 
 ## About Me
 
-Hi there! I'm a **Mathematician** with a knack for problem-solving and a deep interest in the elegant structures of mathematics. From unraveling theoretical concepts to applying practical methods, I aim to bridge the gap between abstract thought and real-world applications. My focus is on building meaningful projects and exploring new ways to visualize and interpret complex data.
+I am **Niklas Canova**, a dedicated mathematician with a passion for software architecture and development. I thrive on solving complex problems and leveraging technology to create efficient and scalable solutions. With a strong foundation in both theoretical and applied mathematics, I enjoy bridging the gap between abstract concepts and practical applications.
+
+- **Current Role:** Senior Software Architect at Tech Innovators Inc.
+- **Projects:** Leading the development of an AI-driven data analysis platform.
+- **Learning:** Continuously enhancing my skills in machine learning and cloud computing.
+- **Contact:** [niklas.canova@example.com](mailto:niklas.canova@example.com)
 
 ---
 
-## 🎨 Tools & Languages
+## Education
 
-### Programming Languages
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-4CAF50?style=for-the-badge&logo=python&logoColor=FFFFFF" alt="Python">
-  <img src="https://img.shields.io/badge/R-4CAF50?style=for-the-badge&logo=r&logoColor=FFFFFF" alt="R">
-  <img src="https://img.shields.io/badge/MATLAB-4CAF50?style=for-the-badge&logo=mathworks&logoColor=FFFFFF" alt="MATLAB">
-  <img src="https://img.shields.io/badge/C++-4CAF50?style=for-the-badge&logo=cplusplus&logoColor=FFFFFF" alt="C++">
-  <img src="https://img.shields.io/badge/LaTeX-4CAF50?style=for-the-badge&logo=latex&logoColor=FFFFFF" alt="LaTeX">
-</p>
+### Master of Science in Mathematics
+**University of Excellence**  
+*Graduated: June 2020*
 
-### Frameworks & Tools
-<p align="center">
-  <img src="https://img.shields.io/badge/Jupyter-4CAF50?style=for-the-badge&logo=jupyter&logoColor=FFFFFF" alt="Jupyter">
-  <img src="https://img.shields.io/badge/TensorFlow-4CAF50?style=for-the-badge&logo=tensorflow&logoColor=FFFFFF" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/PyTorch-4CAF50?style=for-the-badge&logo=pytorch&logoColor=FFFFFF" alt="PyTorch">
-  <img src="https://img.shields.io/badge/NumPy-4CAF50?style=for-the-badge&logo=numpy&logoColor=FFFFFF" alt="NumPy">
-  <img src="https://img.shields.io/badge/SciPy-4CAF50?style=for-the-badge&logo=scipy&logoColor=FFFFFF" alt="SciPy">
-  <img src="https://img.shields.io/badge/Git-4CAF50?style=for-the-badge&logo=git&logoColor=FFFFFF" alt="Git">
-</p>
+### Bachelor of Science in Mathematics
+**University of Excellence**  
+*Graduated: June 2018*
 
 ---
 
-## 🧠 My Areas of Focus
+## Programming Languages & Tools
 
-- **Pure Mathematics**: Diving into algebra, topology, and number theory.
-- **Applied Mathematics**: Advancing techniques in optimization and modeling.
-- **Machine Learning**: Developing algorithms with solid mathematical grounding.
-- **Data Science**: Transforming data into insights through analysis and visualization.
-- **Cryptography**: Applying mathematics to secure communication systems.
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
 
-## 📌 Projects I'm Proud Of
+## Connect with Me
 
-- **Dynamic Data Visualizations**: Building interactive tools that make complex data approachable.
-- **Optimized Algorithms**: Crafting efficient solutions for computational problems.
-- **Mathematics for Creativity**: Using mathematical principles to inspire digital art and design.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niklas-canova)
 
 ---
-
-## 🌐 Connect with Me
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-4CAF50?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn"></a>
-  <a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-4CAF50?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Website-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF" alt="Website"></a>
-</p>
-
-Let's collaborate or discuss anything related to mathematics, programming, or data science!
