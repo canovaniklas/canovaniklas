@@ -1,15 +1,13 @@
-<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
-
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"  <!-- IMPORTANT for xlink:href -->
+>
   <!-- DEFINITIONS -->
   <defs>
-    <!-- Gradient Background: #0d1116 → #3c444d -->
+    <!-- Gradient Background -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0d1116; stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3c444d; stop-opacity:1" />
+      <stop offset="0%" stop-color="#0d1116" stop-opacity="1" />
+      <stop offset="100%" stop-color="#3c444d" stop-opacity="1" />
     </linearGradient>
-
-    <!-- Wave Path (optional decoration) -->
-    <path id="wavePath" d="M0,100 C150,50 450,150 600,100 L600,200 L0,200 Z" />
 
     <!-- Typing Animation Keyframes -->
     <style>
@@ -26,36 +24,11 @@
   <!-- BACKGROUND RECTANGLE -->
   <rect width="600" height="200" fill="url(#bgGradient)" />
 
-  <!-- (Optional) Wave Animations -->
-  <use href="#wavePath" fill="#ffffff" opacity="0.2">
-    <animate
-      attributeName="d"
-      dur="10s"
-      repeatCount="indefinite"
-      values="
-        M0,100 C150,50 450,150 600,100 L600,200 L0,200 Z;
-        M0,110 C150,60 450,160 600,110 L600,200 L0,200 Z;
-        M0,100 C150,50 450,150 600,100 L600,200 L0,200 Z"
-    />
-  </use>
-  <use href="#wavePath" fill="#ffffff" opacity="0.3">
-    <animate
-      attributeName="d"
-      dur="15s"
-      repeatCount="indefinite"
-      values="
-        M0,100 C150,50 450,150 600,100 L600,200 L0,200 Z;
-        M0,90 C150,40 450,140 600,90 L600,200 L0,200 Z;
-        M0,100 C150,50 450,150 600,100 L600,200 L0,200 Z"
-    />
-  </use>
-
   <!-- ─────────────────────────────────────────────────────────
        FIRST LINE: "Hi, I am Niklas :)"
        ───────────────────────────────────────────────────────── -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="75">
-      <!-- Each character is spaced ~20px -->
       <tspan x="140" id="t0"  opacity="0">H</tspan>
       <tspan x="160" id="t1"  opacity="0">i</tspan>
       <tspan x="180" id="t2"  opacity="0">,</tspan>
@@ -80,35 +53,33 @@
   <!-- CURSOR (FIRST LINE) -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="75">
-      <!-- The first cursor starts visible & blinking at x=120 -->
       <tspan id="cursor1" class="cursor" x="120">_</tspan>
 
-      <!-- Move this cursor to the right after each character (every 0.5s) -->
-      <animate href="#cursor1" attributeName="x" to="160" begin="0.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="180" begin="1.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="200" begin="1.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="220" begin="2.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="240" begin="2.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="260" begin="3.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="280" begin="3.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="300" begin="4.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="320" begin="4.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="340" begin="5.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="360" begin="5.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="380" begin="6.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="400" begin="6.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="420" begin="7.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="440" begin="7.5s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="460" begin="8.0s" dur="0.1s" fill="freeze" />
-      <animate href="#cursor1" attributeName="x" to="465" begin="8.5s" dur="0.1s" fill="freeze" />
+      <!-- Using xlink:href instead of href -->
+      <animate xlink:href="#cursor1" attributeName="x" to="160" begin="0.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="180" begin="1.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="200" begin="1.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="220" begin="2.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="240" begin="2.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="260" begin="3.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="280" begin="3.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="300" begin="4.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="320" begin="4.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="340" begin="5.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="360" begin="5.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="380" begin="6.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="400" begin="6.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="420" begin="7.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="440" begin="7.5s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="460" begin="8.0s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="465" begin="8.5s" dur="0.1s" fill="freeze" />
 
-      <!-- CHANGED: Fade out quickly at exactly 9.0s (once last char is typed) 
-           and be fully gone by 9.1s. -->
+      <!-- Fade out the first-line cursor at 9.0s -->
       <animate
-        href="#cursor1"
+        xlink:href="#cursor1"
         attributeName="opacity"
         from="1" to="0"
-        begin="9.0s" dur="0.1s"  <!-- CHANGED -->
+        begin="9.0s" dur="0.1s"
         fill="freeze"
       />
     </text>
@@ -116,32 +87,29 @@
 
   <!-- OPACITY ANIMATIONS (FIRST LINE CHARACTERS) -->
   <g>
-    <animate href="#t0"  attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t1"  attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t2"  attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t3"  attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t4"  attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t5"  attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t6"  attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t7"  attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t8"  attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t9"  attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t10" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t11" attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t12" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t13" attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t14" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t15" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
-    <animate href="#t16" attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.1s" fill="freeze" />
-    <animate href="#t17" attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t0"  attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t1"  attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t2"  attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t3"  attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t4"  attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t5"  attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t6"  attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t7"  attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t8"  attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t9"  attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t10" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t11" attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t12" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t13" attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t14" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t15" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t16" attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#t17" attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.1s" fill="freeze" />
   </g>
 
-  <!-- ─────────────────────────────────────────────────────────
-       SECOND LINE: "How are you?"
-       ───────────────────────────────────────────────────────── -->
+  <!-- SECOND LINE: "How are you?" -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="115">
-      <!-- The second-line characters -->
       <tspan x="140" id="h0"  opacity="0">H</tspan>
       <tspan x="160" id="h1"  opacity="0">o</tspan>
       <tspan x="180" id="h2"  opacity="0">w</tspan>
@@ -160,52 +128,38 @@
   <!-- CURSOR (SECOND LINE) -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="115">
-      <!-- CHANGED: Start the second cursor at opacity=0 (so it's invisible from the start). -->
-      <tspan id="cursor2" class="cursor" x="120" opacity="0">_</tspan>  <!-- CHANGED -->
+      <!-- Start second-line cursor invisible. -->
+      <tspan id="cursor2" class="cursor" x="120" opacity="0">_</tspan>
 
-      <!-- CHANGED: Appear at 9.15s (AFTER first cursor is gone by 9.1s). -->
+      <!-- Appear at 9.1s (once first line's cursor is gone) -->
       <animate
-        href="#cursor2"
+        xlink:href="#cursor2"
         attributeName="opacity"
         from="0" to="1"
-        begin="9.15s" dur="0.05s"  <!-- CHANGED -->
+        begin="9.1s" dur="0.05s"
         fill="freeze"
       />
 
-      <!-- Now we move the second-line cursor in sync with each letter, 
-           every 0.5s, starting at 9.15s. -->
+      <!-- Move in 0.5s steps -->
+      <animate xlink:href="#cursor2" attributeName="x" to="160" begin="9.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="180" begin="10.1s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="200" begin="10.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="220" begin="11.1s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="240" begin="11.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="260" begin="12.1s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="280" begin="12.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="300" begin="13.1s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="320" begin="13.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="340" begin="14.1s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="360" begin="14.6s" dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor2" attributeName="x" to="380" begin="15.1s" dur="0.1s" fill="freeze" />
 
-      <!-- 'H' => #h0 appears at 9.15s; cursor moves after 0.5s => 9.65s -->
-      <animate href="#cursor2" attributeName="x" to="160" begin="9.65s" dur="0.1s" fill="freeze" />
-      <!-- #h1 => 'o' => move at 10.15s -->
-      <animate href="#cursor2" attributeName="x" to="180" begin="10.15s" dur="0.1s" fill="freeze" />
-      <!-- #h2 => 'w' => move at 10.65s -->
-      <animate href="#cursor2" attributeName="x" to="200" begin="10.65s" dur="0.1s" fill="freeze" />
-      <!-- #h3 => ' ' => move at 11.15s -->
-      <animate href="#cursor2" attributeName="x" to="220" begin="11.15s" dur="0.1s" fill="freeze" />
-      <!-- #h4 => 'a' => move at 11.65s -->
-      <animate href="#cursor2" attributeName="x" to="240" begin="11.65s" dur="0.1s" fill="freeze" />
-      <!-- #h5 => 'r' => move at 12.15s -->
-      <animate href="#cursor2" attributeName="x" to="260" begin="12.15s" dur="0.1s" fill="freeze" />
-      <!-- #h6 => 'e' => move at 12.65s -->
-      <animate href="#cursor2" attributeName="x" to="280" begin="12.65s" dur="0.1s" fill="freeze" />
-      <!-- #h7 => ' ' => move at 13.15s -->
-      <animate href="#cursor2" attributeName="x" to="300" begin="13.15s" dur="0.1s" fill="freeze" />
-      <!-- #h8 => 'y' => move at 13.65s -->
-      <animate href="#cursor2" attributeName="x" to="320" begin="13.65s" dur="0.1s" fill="freeze" />
-      <!-- #h9 => 'o' => move at 14.15s -->
-      <animate href="#cursor2" attributeName="x" to="340" begin="14.15s" dur="0.1s" fill="freeze" />
-      <!-- #h10 => 'u' => move at 14.65s -->
-      <animate href="#cursor2" attributeName="x" to="360" begin="14.65s" dur="0.1s" fill="freeze" />
-      <!-- #h11 => '?' => move at 15.15s -->
-      <animate href="#cursor2" attributeName="x" to="380" begin="15.15s" dur="0.1s" fill="freeze" />
-
-      <!-- Finally, fade out the second-line cursor once done (16.0s or so). -->
+      <!-- Fade out second-line cursor once done -->
       <animate
-        href="#cursor2"
+        xlink:href="#cursor2"
         attributeName="opacity"
         from="1" to="0"
-        begin="15.6s" dur="0.2s"
+        begin="15.4s" dur="0.3s"
         fill="freeze"
       />
     </text>
@@ -213,30 +167,18 @@
 
   <!-- OPACITY ANIMATIONS (SECOND LINE CHARACTERS) -->
   <g>
-    <!-- 'H' => #h0 at 9.15s -->
-    <animate href="#h0"  attributeName="opacity" from="0" to="1" begin="9.15s"  dur="0.1s" fill="freeze" />
-    <!-- #h1 => 'o' => at 9.65s -->
-    <animate href="#h1"  attributeName="opacity" from="0" to="1" begin="9.65s"  dur="0.1s" fill="freeze" />
-    <!-- #h2 => 'w' => at 10.15s -->
-    <animate href="#h2"  attributeName="opacity" from="0" to="1" begin="10.15s" dur="0.1s" fill="freeze" />
-    <!-- #h3 => ' ' => at 10.65s -->
-    <animate href="#h3"  attributeName="opacity" from="0" to="1" begin="10.65s" dur="0.1s" fill="freeze" />
-    <!-- #h4 => 'a' => at 11.15s -->
-    <animate href="#h4"  attributeName="opacity" from="0" to="1" begin="11.15s" dur="0.1s" fill="freeze" />
-    <!-- #h5 => 'r' => at 11.65s -->
-    <animate href="#h5"  attributeName="opacity" from="0" to="1" begin="11.65s" dur="0.1s" fill="freeze" />
-    <!-- #h6 => 'e' => at 12.15s -->
-    <animate href="#h6"  attributeName="opacity" from="0" to="1" begin="12.15s" dur="0.1s" fill="freeze" />
-    <!-- #h7 => ' ' => at 12.65s -->
-    <animate href="#h7"  attributeName="opacity" from="0" to="1" begin="12.65s" dur="0.1s" fill="freeze" />
-    <!-- #h8 => 'y' => at 13.15s -->
-    <animate href="#h8"  attributeName="opacity" from="0" to="1" begin="13.15s" dur="0.1s" fill="freeze" />
-    <!-- #h9 => 'o' => at 13.65s -->
-    <animate href="#h9"  attributeName="opacity" from="0" to="1" begin="13.65s" dur="0.1s" fill="freeze" />
-    <!-- #h10 => 'u' => at 14.15s -->
-    <animate href="#h10" attributeName="opacity" from="0" to="1" begin="14.15s" dur="0.1s" fill="freeze" />
-    <!-- #h11 => '?' => at 14.65s -->
-    <animate href="#h11" attributeName="opacity" from="0" to="1" begin="14.65s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h0"  attributeName="opacity" from="0" to="1" begin="9.1s"  dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h1"  attributeName="opacity" from="0" to="1" begin="9.6s"  dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h2"  attributeName="opacity" from="0" to="1" begin="10.1s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h3"  attributeName="opacity" from="0" to="1" begin="10.6s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h4"  attributeName="opacity" from="0" to="1" begin="11.1s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h5"  attributeName="opacity" from="0" to="1" begin="11.6s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h6"  attributeName="opacity" from="0" to="1" begin="12.1s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h7"  attributeName="opacity" from="0" to="1" begin="12.6s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h8"  attributeName="opacity" from="0" to="1" begin="13.1s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h9"  attributeName="opacity" from="0" to="1" begin="13.6s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h10" attributeName="opacity" from="0" to="1" begin="14.1s" dur="0.1s" fill="freeze" />
+    <animate xlink:href="#h11" attributeName="opacity" from="0" to="1" begin="14.6s" dur="0.1s" fill="freeze" />
   </g>
 
 </svg>
