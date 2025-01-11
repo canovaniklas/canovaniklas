@@ -1,79 +1,72 @@
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-
+<svg viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+  
   <!-- Definitions for filters and gradients -->
   <defs>
-    <!-- Gradient Background -->
+    <!-- Gradient Background (Grey to Dark Grey) -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0D1B2A; stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1B263B; stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#2E2E2E; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1C1C1C; stop-opacity:1" />
     </linearGradient>
 
     <!-- Wave Path -->
-    <path id="wavePath" d="M0,200 C300,100 900,300 1200,200 L1200,300 L0,300 Z" />
+    <path id="wavePath" d="M0,100 C300,50 900,150 1200,100 L1200,150 L0,150 Z" />
 
     <!-- Mask for Profile Image -->
     <clipPath id="profileClip">
-      <circle cx="100" cy="100" r="80" />
+      <circle cx="100" cy="75" r="60" />
     </clipPath>
 
     <!-- Typing Animation Keyframes -->
     <style>
       @keyframes typing {
-        from { width: 0 }
-        to { width: 15em }
+        from { width: 0; }
+        to { width: 9em; }
       }
 
       @keyframes blink {
-        0% { border-color: transparent }
-        50% { border-color: white }
-        100% { border-color: transparent }
+        0%, 100% { border-color: transparent; }
+        50% { border-color: black; }
       }
 
       .typingText {
         overflow: hidden;
-        border-right: .15em solid white;
+        border-right: .15em solid black;
         white-space: nowrap;
         margin: 0 auto;
-        letter-spacing: .15em;
-        animation: typing 4s steps(40, end), blink .75s step-end infinite;
+        letter-spacing: .1em;
+        animation: typing 3s steps(20, end), blink .75s step-end infinite;
       }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="300" fill="url(#bgGradient)" />
+  <rect width="1200" height="150" fill="url(#bgGradient)" />
 
   <!-- Wave Animation -->
-  <use href="#wavePath" fill="#ffffff" opacity="0.2">
+  <use href="#wavePath" fill="#4F4F4F" opacity="0.5">
     <animate attributeName="d" dur="10s" repeatCount="indefinite"
       values="
-        M0,200 C300,100 900,300 1200,200 L1200,300 L0,300 Z;
-        M0,220 C300,120 900,320 1200,220 L1200,300 L0,300 Z;
-        M0,200 C300,100 900,300 1200,200 L1200,300 L0,300 Z" />
-  </use>
-  <use href="#wavePath" fill="#ffffff" opacity="0.3">
-    <animate attributeName="d" dur="15s" repeatCount="indefinite"
-      values="
-        M0,200 C300,100 900,300 1200,200 L1200,300 L0,300 Z;
-        M0,180 C300,80 900,280 1200,180 L1200,300 L0,300 Z;
-        M0,200 C300,100 900,300 1200,200 L1200,300 L0,300 Z" />
+        M0,100 C300,50 900,150 1200,100 L1200,150 L0,150 Z;
+        M0,110 C300,60 900,160 1200,110 L1200,150 L0,150 Z;
+        M0,100 C300,50 900,150 1200,100 L1200,150 L0,150 Z" />
   </use>
 
   <!-- Profile Image -->
   <image 
     x="20" 
-    y="70" 
-    width="160" 
-    height="160" 
+    y="15" 
+    width="120" 
+    height="120" 
     clip-path="url(#profileClip)"
     href="data:image/png;base64, [Your_Base64_Image_Data_Here]" 
   />
 
   <!-- Typing Text -->
-  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="48">
-    <text x="220" y="150" class="typingText">Niklas Canova_</text>
+  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="32">
+    <text x="160" y="80" class="typingText">Hi, I am Niklas</text>
   </g>
 
 </svg>
+
 
 
