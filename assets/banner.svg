@@ -243,4 +243,9 @@
     <!-- 'o' => #h9 at 13.8s -->
     <animate href="#h9"  attributeName="opacity" from="0" to="1" begin="13.8s" dur="0.1s" fill="freeze" />
     <!-- 'u' => #h10 at 14.3s -->
-    <animate h
+    <animate href="#h10" attributeName="opacity" from="0" to="1" begin="14.3s" dur="0.1s" fill="freeze" />
+    <!-- '?' => #h11 at 14.8s -->
+    <animate href="#h11" attributeName="opacity" from="0" to="1" begin="14.8s" dur="0.1s" fill="freeze" />
+  </g>
+
+</svg>
