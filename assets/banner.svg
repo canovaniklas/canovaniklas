@@ -1,15 +1,8 @@
-<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" 
-     xmlns:xlink="http://www.w3.org/1999/xlink"  <!-- IMPORTANT for xlink:href -->
->
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
   <!-- DEFINITIONS -->
   <defs>
-    <!-- Gradient Background -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1116" stop-opacity="1" />
-      <stop offset="100%" stop-color="#3c444d" stop-opacity="1" />
-    </linearGradient>
-
-    <!-- Typing Animation Keyframes -->
     <style>
       @keyframes blink {
         0%, 100% { opacity: 1; }
@@ -18,16 +11,20 @@
       .cursor {
         animation: blink 1s step-end infinite;
       }
+      /* Everything black by default */
+      .black-text {
+        fill: #000000; /* black */
+        font-family: Courier New, monospace;
+        font-size: 24px;
+      }
     </style>
   </defs>
 
-  <!-- BACKGROUND RECTANGLE -->
-  <rect width="600" height="200" fill="url(#bgGradient)" />
+  <!-- BACKGROUND: white so black text is visible -->
+  <rect width="600" height="200" fill="#FFFFFF" />
 
-  <!-- ─────────────────────────────────────────────────────────
-       FIRST LINE: "Hi, I am Niklas :)"
-       ───────────────────────────────────────────────────────── -->
-  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
+  <!-- FIRST LINE: "Hi, I am Niklas :)" -->
+  <g class="black-text">
     <text y="75">
       <tspan x="140" id="t0"  opacity="0">H</tspan>
       <tspan x="160" id="t1"  opacity="0">i</tspan>
@@ -50,29 +47,29 @@
     </text>
   </g>
 
-  <!-- CURSOR (FIRST LINE) -->
-  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
+  <!-- CURSOR (FIRST LINE) - black -->
+  <g class="black-text">
     <text y="75">
       <tspan id="cursor1" class="cursor" x="120">_</tspan>
 
-      <!-- Using xlink:href instead of href -->
-      <animate xlink:href="#cursor1" attributeName="x" to="160" begin="0.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="180" begin="1.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="200" begin="1.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="220" begin="2.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="240" begin="2.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="260" begin="3.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="280" begin="3.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="300" begin="4.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="320" begin="4.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="340" begin="5.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="360" begin="5.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="380" begin="6.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="400" begin="6.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="420" begin="7.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="440" begin="7.5s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="460" begin="8.0s" dur="0.1s" fill="freeze" />
-      <animate xlink:href="#cursor1" attributeName="x" to="465" begin="8.5s" dur="0.1s" fill="freeze" />
+      <!-- Move this cursor for each character (every 0.5s) -->
+      <animate xlink:href="#cursor1" attributeName="x" to="160"  begin="0.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="180"  begin="1.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="200"  begin="1.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="220"  begin="2.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="240"  begin="2.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="260"  begin="3.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="280"  begin="3.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="300"  begin="4.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="320"  begin="4.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="340"  begin="5.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="360"  begin="5.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="380"  begin="6.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="400"  begin="6.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="420"  begin="7.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="440"  begin="7.5s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="460"  begin="8.0s"  dur="0.1s" fill="freeze" />
+      <animate xlink:href="#cursor1" attributeName="x" to="465"  begin="8.5s"  dur="0.1s" fill="freeze" />
 
       <!-- Fade out the first-line cursor at 9.0s -->
       <animate
@@ -108,7 +105,7 @@
   </g>
 
   <!-- SECOND LINE: "How are you?" -->
-  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
+  <g class="black-text">
     <text y="115">
       <tspan x="140" id="h0"  opacity="0">H</tspan>
       <tspan x="160" id="h1"  opacity="0">o</tspan>
@@ -125,13 +122,13 @@
     </text>
   </g>
 
-  <!-- CURSOR (SECOND LINE) -->
-  <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
+  <!-- CURSOR (SECOND LINE) - black -->
+  <g class="black-text">
     <text y="115">
-      <!-- Start second-line cursor invisible. -->
+      <!-- Start invisible to avoid showing early -->
       <tspan id="cursor2" class="cursor" x="120" opacity="0">_</tspan>
 
-      <!-- Appear at 9.1s (once first line's cursor is gone) -->
+      <!-- Appear right after first line's cursor is gone (9.1s) -->
       <animate
         xlink:href="#cursor2"
         attributeName="opacity"
@@ -140,8 +137,8 @@
         fill="freeze"
       />
 
-      <!-- Move in 0.5s steps -->
-      <animate xlink:href="#cursor2" attributeName="x" to="160" begin="9.6s" dur="0.1s" fill="freeze" />
+      <!-- Move in 0.5s steps for each character -->
+      <animate xlink:href="#cursor2" attributeName="x" to="160" begin="9.6s"  dur="0.1s" fill="freeze" />
       <animate xlink:href="#cursor2" attributeName="x" to="180" begin="10.1s" dur="0.1s" fill="freeze" />
       <animate xlink:href="#cursor2" attributeName="x" to="200" begin="10.6s" dur="0.1s" fill="freeze" />
       <animate xlink:href="#cursor2" attributeName="x" to="220" begin="11.1s" dur="0.1s" fill="freeze" />
@@ -180,5 +177,4 @@
     <animate xlink:href="#h10" attributeName="opacity" from="0" to="1" begin="14.1s" dur="0.1s" fill="freeze" />
     <animate xlink:href="#h11" attributeName="opacity" from="0" to="1" begin="14.6s" dur="0.1s" fill="freeze" />
   </g>
-
 </svg>
