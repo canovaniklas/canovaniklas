@@ -3,25 +3,7 @@
 ---
 
 ## About Me
-
-I am **Niklas Canova**, a dedicated mathematician with a passion for software architecture and development. I thrive on solving complex problems and leveraging technology to create efficient and scalable solutions. With a strong foundation in both theoretical and applied mathematics, I enjoy bridging the gap between abstract concepts and practical applications.
-
-- **Current Role:** Senior Software Architect at Tech Innovators Inc.
-- **Projects:** Leading the development of an AI-driven data analysis platform.
-- **Learning:** Continuously enhancing my skills in machine learning and cloud computing.
-- **Contact:** [niklas.canova@example.com](mailto:niklas.canova@example.com)
-
----
-
-## Education
-
-### Master of Science in Mathematics
-**University of Excellence**  
-*Graduated: June 2020*
-
-### Bachelor of Science in Mathematics
-**University of Excellence**  
-*Graduated: June 2018*
+I am a Mathematician interested in Geometry, partial differential equations, calculus of variations, machine learning, data science and statistics. Currently, I am pursuing a PhD in Mathematics at ETH Zurich, where I finished my Masters in 2024. I love to learn about stuff in all STEM-related fields.
 
 ---
 
@@ -29,8 +11,6 @@ I am **Niklas Canova**, a dedicated mathematician with a passion for software ar
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 
 ### Frameworks & Libraries
@@ -40,8 +20,6 @@ I am **Niklas Canova**, a dedicated mathematician with a passion for software ar
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
