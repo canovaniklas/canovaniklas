@@ -10,27 +10,21 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 ## (Programming) Languages
 
 ### Languages
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-<img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
-<img align="left" alt="MATLAB" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />
-<img align="left" alt="LaTeX" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
-<div style="clear: both;"></div>
+
+| ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg) <br> **Python** | ![C++](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg) <br> **C++** | ![MATLAB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg) <br> **MATLAB** | ![LaTeX](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg) <br> **LaTeX** |
+|---|---|---|---|
 
 ### Libraries
-<img align="left" alt="NumPy" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
-<img align="left" alt="Pandas" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
-<img align="left" alt="Matplotlib" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" />
-<img align="left" alt="SciPy" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scipy/scipy-original.svg" />
-<img align="left" alt="PyTorch" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
-<img align="left" alt="Seaborn" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/seaborn/seaborn-original.svg" />
-<img align="left" alt="Scikit-learn" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" />
-<img align="left" alt="SymPy" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" />
-<div style="clear: both;"></div>
+
+| ![NumPy](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg) <br> **NumPy** | ![Pandas](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg) <br> **Pandas** | ![Matplotlib](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg) <br> **Matplotlib** | ![SciPy](https://www.scipy.org/_static/scipy_logo.svg) <br> **SciPy** |
+|---|---|---|---|
+| ![PyTorch](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg) <br> **PyTorch** | ![Seaborn](https://seaborn.pydata.org/_static/logo-wide-lightbg.svg) <br> **Seaborn** | ![Scikit-learn](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg) <br> **Scikit-learn** | ![SymPy](https://www.sympy.org/static/img/logo.svg) <br> **SymPy** |
+|---|---|---|---|
 
 ### Tools & Platforms
-<img align="left" alt="VS Code" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-<div style="clear: both;"></div>
+
+| ![VS Code](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg) <br> **VS Code** | ![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg) <br> **GitHub** |
+|---|---|
 
 ---
 
