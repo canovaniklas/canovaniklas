@@ -27,7 +27,7 @@
   <!-- Background -->
   <rect width="600" height="150" fill="url(#bgGradient)" />
 
-  <!-- (Optional) Wave Animations -->
+  <!-- Wave Animations (optional eye-candy) -->
   <use href="#wavePath" fill="#FFFFFF" opacity="0.2">
     <animate attributeName="d"
       dur="10s" repeatCount="indefinite"
@@ -50,7 +50,7 @@
   <!-- Typing Text -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="75" text-anchor="start">
-      <!-- Each character is typically 20px apart; adjust as needed -->
+      <!-- Each character is 20px apart; adjust x as needed -->
       <tspan x="140" id="t0" opacity="0">H</tspan>
       <tspan x="160" id="t1" opacity="0">i</tspan>
       <tspan x="180" id="t2" opacity="0">,</tspan>
@@ -66,45 +66,64 @@
       <tspan x="380" id="t12" opacity="0">l</tspan>
       <tspan x="400" id="t13" opacity="0">a</tspan>
       <tspan x="420" id="t14" opacity="0">s</tspan>
-      <!-- Space after 'Niklas' -->
+      <!-- Separate space, colon, and parenthesis so they appear step-by-step -->
       <tspan x="440" id="t15" opacity="0"> </tspan>
-      <!-- Colon and parenthesis close together (no space between them) -->
       <tspan x="460" id="t16" opacity="0">:</tspan>
-      <tspan x="465" id="t17" opacity="0">)</tspan>
+      <tspan x="480" id="t17" opacity="0">)</tspan>
     </text>
   </g>
 
   <!-- Cursor -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="75" text-anchor="start">
-      <!-- Initial cursor at x=120 so it's visible at the start -->
+      <!-- Initial cursor at x=120 so it's visible at start -->
       <tspan id="cursor" class="cursor" x="120">_</tspan>
 
-      <!-- Move cursor in sync with each typed character -->
+      <!-- Move cursor in sync with each typed character: 
+           We'll move it after each letter's appearance -->
+      <!-- t0 => H appears at 0.5s, so move cursor to 160 right after -->
       <animate href="#cursor" attributeName="x" to="160" begin="0.5s" dur="0.1s" fill="freeze" />
+      <!-- t1 => i at 1.0s => move to 180 -->
       <animate href="#cursor" attributeName="x" to="180" begin="1.0s" dur="0.1s" fill="freeze" />
+      <!-- t2 => , at 1.5s => move to 200 -->
       <animate href="#cursor" attributeName="x" to="200" begin="1.5s" dur="0.1s" fill="freeze" />
+      <!-- t3 => space at 2.0s => move to 220 -->
       <animate href="#cursor" attributeName="x" to="220" begin="2.0s" dur="0.1s" fill="freeze" />
+      <!-- t4 => I at 2.5s => move to 240 -->
       <animate href="#cursor" attributeName="x" to="240" begin="2.5s" dur="0.1s" fill="freeze" />
+      <!-- t5 => space at 3.0s => move to 260 -->
       <animate href="#cursor" attributeName="x" to="260" begin="3.0s" dur="0.1s" fill="freeze" />
+      <!-- t6 => a at 3.5s => move to 280 -->
       <animate href="#cursor" attributeName="x" to="280" begin="3.5s" dur="0.1s" fill="freeze" />
+      <!-- t7 => m at 4.0s => move to 300 -->
       <animate href="#cursor" attributeName="x" to="300" begin="4.0s" dur="0.1s" fill="freeze" />
+      <!-- t8 => space at 4.5s => move to 320 -->
       <animate href="#cursor" attributeName="x" to="320" begin="4.5s" dur="0.1s" fill="freeze" />
+      <!-- t9 => N at 5.0s => move to 340 -->
       <animate href="#cursor" attributeName="x" to="340" begin="5.0s" dur="0.1s" fill="freeze" />
+      <!-- t10 => i at 5.5s => move to 360 -->
       <animate href="#cursor" attributeName="x" to="360" begin="5.5s" dur="0.1s" fill="freeze" />
+      <!-- t11 => k at 6.0s => move to 380 -->
       <animate href="#cursor" attributeName="x" to="380" begin="6.0s" dur="0.1s" fill="freeze" />
+      <!-- t12 => l at 6.5s => move to 400 -->
       <animate href="#cursor" attributeName="x" to="400" begin="6.5s" dur="0.1s" fill="freeze" />
+      <!-- t13 => a at 7.0s => move to 420 -->
       <animate href="#cursor" attributeName="x" to="420" begin="7.0s" dur="0.1s" fill="freeze" />
+      <!-- t14 => s at 7.5s => move to 440 -->
       <animate href="#cursor" attributeName="x" to="440" begin="7.5s" dur="0.1s" fill="freeze" />
+      <!-- t15 => space at 8.0s => move to 460 -->
       <animate href="#cursor" attributeName="x" to="460" begin="8.0s" dur="0.1s" fill="freeze" />
-      <!-- After the colon appears, jump slightly to x=465 for the parenthesis -->
-      <animate href="#cursor" attributeName="x" to="465" begin="8.5s" dur="0.1s" fill="freeze" />
-      <!-- Finally fade out once the ")" is displayed -->
-      <animate href="#cursor" attributeName="opacity" from="1" to="0" begin="9.0s" dur="0.3s" fill="freeze" />
+      <!-- t16 => : at 8.5s => move to 480 -->
+      <animate href="#cursor" attributeName="x" to="480" begin="8.5s" dur="0.1s" fill="freeze" />
+      <!-- t17 => ) at 9.0s => move to 500 -->
+      <animate href="#cursor" attributeName="x" to="500" begin="9.0s" dur="0.1s" fill="freeze" />
+
+      <!-- Finally, fade out the cursor after the last character appears (9.0s) -->
+      <animate href="#cursor" attributeName="opacity" from="1" to="0" begin="9.2s" dur="0.3s" fill="freeze" />
     </text>
   </g>
 
-  <!-- Animate each character's opacity (0 → 1) in half-second increments -->
+  <!-- Animate each character's opacity from 0 → 1 in sync -->
   <g>
     <animate href="#t0"  attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
     <animate href="#t1"  attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
@@ -123,8 +142,6 @@
     <animate href="#t14" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
     <animate href="#t15" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
     <animate href="#t16" attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.1s" fill="freeze" />
-    <!-- Note: parenthesis appears at 9.0s -->
     <animate href="#t17" attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.1s" fill="freeze" />
   </g>
-
 </svg>
