@@ -47,29 +47,27 @@
   <!-- Typing Text -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text x="100" y="75">
-      <!-- Initial underscore as cursor -->
-      <tspan id="cursor" class="cursor">_</tspan>
-
-      <!-- Characters to be typed -->
-      <tspan id="t1" opacity="0">H</tspan>
-      <tspan id="t2" opacity="0">i</tspan>
-      <tspan id="t3" opacity="0">,</tspan>
+      <!-- Tspans for each character with cursor before it -->
+      <tspan id="t1" opacity="0">_H</tspan>
+      <tspan id="t2" opacity="0">_i</tspan>
+      <tspan id="t3" opacity="0">_,</tspan>
       <tspan id="t4" opacity="0"> </tspan>
-      <tspan id="t5" opacity="0">I</tspan>
+      <tspan id="t5" opacity="0">_I</tspan>
       <tspan id="t6" opacity="0"> </tspan>
-      <tspan id="t7" opacity="0">a</tspan>
-      <tspan id="t8" opacity="0">m</tspan>
+      <tspan id="t7" opacity="0">_a</tspan>
+      <tspan id="t8" opacity="0">_m</tspan>
       <tspan id="t9" opacity="0"> </tspan>
-      <tspan id="t10" opacity="0">N</tspan>
-      <tspan id="t11" opacity="0">i</tspan>
-      <tspan id="t12" opacity="0">k</tspan>
-      <tspan id="t13" opacity="0">l</tspan>
-      <tspan id="t14" opacity="0">a</tspan>
-      <tspan id="t15" opacity="0">s</tspan>
-      <tspan id="t16" opacity="0"> :)</tspan>
+      <tspan id="t10" opacity="0">_N</tspan>
+      <tspan id="t11" opacity="0">_i</tspan>
+      <tspan id="t12" opacity="0">_k</tspan>
+      <tspan id="t13" opacity="0">_l</tspan>
+      <tspan id="t14" opacity="0">_a</tspan>
+      <tspan id="t15" opacity="0">_s</tspan>
+      <tspan id="t16" opacity="0">_ :)</tspan>
     </text>
 
     <!-- Animations for each character -->
+    <!-- Each character appears at 0.5s intervals with a 0.1s fade-in -->
     <animate href="#t1" attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
     <animate href="#t2" attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
     <animate href="#t3" attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
