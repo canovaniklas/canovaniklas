@@ -11,24 +11,87 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 
 ### Languages
 
-| ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg) <br> **Python** | ![C++](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg) <br> **C++** | ![MATLAB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg) <br> **MATLAB** | ![LaTeX](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg) <br> **LaTeX** |
-|---|---|---|---|
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50px" />
+    <br>**Python**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="50px" />
+    <br>**C++**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB" width="50px" />
+    <br>**MATLAB**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX" width="50px" style="filter: invert(100%);" />
+    <br>**LaTeX**
+  </div>
+</div>
 
 ### Libraries
 
-| ![NumPy](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg) <br> **NumPy** | ![Pandas](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg) <br> **Pandas** | ![Matplotlib](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg) <br> **Matplotlib** | ![SciPy](https://www.scipy.org/_static/scipy_logo.svg) <br> **SciPy** |
-|---|---|---|---|
-| ![PyTorch](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg) <br> **PyTorch** | ![Seaborn](https://seaborn.pydata.org/_static/logo-wide-lightbg.svg) <br> **Seaborn** | ![Scikit-learn](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg) <br> **Scikit-learn** | ![SymPy](https://www.sympy.org/static/img/logo.svg) <br> **SymPy** |
-|---|---|---|---|
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="50px" />
+    <br>**NumPy**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="50px" />
+    <br>**Pandas**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="50px" />
+    <br>**Matplotlib**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://www.scipy.org/_static/scipy_logo.svg" alt="SciPy" width="50px" />
+    <br>**SciPy**
+  </div>
+</div>
+
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50px" />
+    <br>**PyTorch**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" width="50px" />
+    <br>**Seaborn**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" width="50px" />
+    <br>**Scikit-learn**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://www.sympy.org/static/img/logo.svg" alt="SymPy" width="50px" />
+    <br>**SymPy**
+  </div>
+</div>
 
 ### Tools & Platforms
 
-| ![VS Code](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg) <br> **VS Code** | ![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg) <br> **GitHub** |
-|---|---|
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="50px" />
+    <br>**VS Code**
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50px" />
+    <br>**GitHub**
+  </div>
+</div>
 
 ---
 
 ## Feel Free to Contact Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niklas-canova-7b83962ba/)  
-📧 **Email:** [niklasc@icloud.com](mailto:niklasc@icloud.com)
+<div align="center">
+  <a href="https://www.linkedin.com/in/niklas-canova-7b83962ba/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="50px" />
+  </a>
+  <a href="mailto:niklasc@icloud.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Email" width="50px" />
+  </a>
+</div>
