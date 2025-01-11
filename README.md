@@ -14,15 +14,14 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 
 ## Libraries
 
-| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="25px" alt="NumPy Logo" style="border:0;"/>](https://numpy.org/)<br>NumPy | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="25px" alt="Pandas Logo" style="border:0;"/>](https://pandas.pydata.org/)<br>Pandas | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="25px" alt="Matplotlib Logo" style="border:0;"/>](https://matplotlib.org/)<br>Matplotlib | [<img src="https://www.scipy.org/_static/scipy_logo.svg" width="25px" alt="SciPy Logo" style="border:0;"/>](https://www.scipy.org/) |
+| NumPy | Pandas | Matplotlib | SciPy |
 |---|---|---|---|
-| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="25px" alt="PyTorch Logo" style="border:0;"/>](https://pytorch.org/)<br>PyTorch | [<img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="25px" alt="Seaborn Logo" style="border:0;"/>](https://seaborn.pydata.org/)<br>Seaborn | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="25px" alt="Scikit-learn Logo" style="border:0;"/>](https://scikit-learn.org/)<br>Scikit-learn | [<img src="https://www.sympy.org/static/img/logo.svg" width="25px" alt="SymPy Logo" style="border:0;"/>](https://www.sympy.org/en/index.html)<br>SymPy |
-|---|---|---|---|
+| PyTorch | Seaborn | Scikit-learn | SymPy |
 
 ## Tools & Platforms
 
-| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="25px" alt="VS Code Logo" style="border:0;"/>](https://code.visualstudio.com/)<br>VS Code | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25px" alt="GitHub Logo" style="border:0;"/>](https://github.com/)<br>GitHub |
-|---|---|
+| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="25px" alt="VS Code Logo" style="border:0;"/>](https://code.visualstudio.com/)<br>VS Code | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="25px" alt="GitHub Logo" style="border:0;"/>](https://github.com/)<br>GitHub | [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/overleaf.svg" width="25px" alt="Overleaf Logo" style="border:0;"/>](https://www.overleaf.com/)<br>Overleaf |
+|---|---|---|
 
 ---
 
