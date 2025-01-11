@@ -46,9 +46,11 @@
 
   <!-- Typing Text -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
-    <!-- Each tspan represents a character with a preceding "_" -->
     <text x="100" y="75">
-      <tspan id="t0">_</tspan>
+      <!-- Initial underscore as cursor -->
+      <tspan id="cursor" class="cursor">_</tspan>
+
+      <!-- Characters to be typed -->
       <tspan id="t1" opacity="0">H</tspan>
       <tspan id="t2" opacity="0">i</tspan>
       <tspan id="t3" opacity="0">,</tspan>
@@ -65,27 +67,25 @@
       <tspan id="t14" opacity="0">a</tspan>
       <tspan id="t15" opacity="0">s</tspan>
       <tspan id="t16" opacity="0"> :)</tspan>
-      <!-- Cursor -->
-      <tspan class="cursor" x="100" y="75">|</tspan>
     </text>
 
     <!-- Animations for each character -->
-    <animate xlink:href="#t1" attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t2" attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t3" attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t4" attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t5" attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t6" attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t7" attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t8" attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t9" attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t10" attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t11" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t12" attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t13" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t14" attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t15" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
-    <animate xlink:href="#t16" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t1" attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t2" attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t3" attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t4" attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t5" attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t6" attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t7" attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t8" attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t9" attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t10" attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t11" attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t12" attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t13" attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t14" attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.1s" fill="freeze" />
+    <animate href="#t15" attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.1s" fill="freeze" />
+    <animate href="#t16" attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.1s" fill="freeze" />
   </g>
 
 </svg>
