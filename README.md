@@ -3,7 +3,7 @@
 ---
 
 ## About Me
-I am a Mathematician interested in Geometry, partial differential equations, calculus of variations, machine learning, data science, and statistics. Currently, I am pursuing a PhD in Mathematics at ETH Zurich, where I completed my Master's in 2024. I love to learn about various topics in all STEM-related fields.
+I am a Mathematician interested in geometry, partial differential equations, calculus of variations, machine learning, data science, and statistics. Currently, I am pursuing a PhD in Mathematics at ETH Zurich, where I completed my Master's in 2024. I love to learn about various topics in all STEM-related fields.
 
 ---
 
