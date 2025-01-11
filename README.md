@@ -9,7 +9,7 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 
 ## (Programming) Languages
 
-| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" alt="Python Logo"/>](https://www.python.org/)<br>Python | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50px" alt="C++ Logo"/>](https://isocpp.org/)<br>C++ | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="50px" alt="MATLAB Logo"/>](https://www.mathworks.com/products/matlab.html)<br>MATLAB | [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/LaTeX_logo.svg" width="50px" style="background: transparent;" alt="LaTeX Logo"/>](https://www.latex-project.org/)<br>LaTeX |
+| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" alt="Python Logo"/>](https://www.python.org/)<br>Python | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50px" alt="C++ Logo"/>](https://isocpp.org/)<br>C++ | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="50px" alt="MATLAB Logo"/>](https://www.mathworks.com/products/matlab.html)<br>MATLAB | [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/latex.svg" width="50px" style="filter: invert(1);" alt="LaTeX Logo"/>](https://www.latex-project.org/)<br>LaTeX |
 |---|---|---|---|
 
 ## Libraries
@@ -28,5 +28,5 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 
 ## Feel Free to Contact Me
 
-| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="50px" alt="LinkedIn Logo"/>](https://www.linkedin.com/in/niklas-canova-7b83962ba/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/512px-Mail_%28iOS%29.svg.png" width="50px" alt="Email Icon"/>](mailto:niklasc@icloud.com) |
+| [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="50px" alt="LinkedIn Logo"/>](https://www.linkedin.com/in/niklas-canova-7b83962ba/) | [<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" width="50px" alt="Email Icon"/>](mailto:niklasc@icloud.com) |
 |---|---|
