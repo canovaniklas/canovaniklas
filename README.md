@@ -33,4 +33,5 @@ I am a Mathematician interested in Geometry, partial differential equations, cal
 
 ## Feek free to contact me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/niklas-canova-7b83962ba)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niklas-canova-7b83962ba/)
+
