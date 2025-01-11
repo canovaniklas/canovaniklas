@@ -101,13 +101,16 @@
       <animate xlink:href="#cursor" attributeName="x" to="620"  begin="14.0s" dur="0.1s" fill="freeze" />
       <animate xlink:href="#cursor" attributeName="x" to="640"  begin="14.5s" dur="0.1s" fill="freeze" />
       <animate xlink:href="#cursor" attributeName="x" to="660"  begin="15.0s" dur="0.1s" fill="freeze" />
+      
+      <!-- New cursor movement to position after the question mark -->
+      <animate xlink:href="#cursor" attributeName="x" to="680"  begin="15.5s" dur="0.1s" fill="freeze" />
 
-      <!-- Fade out the cursor at the end -->
+      <!-- Fade out the cursor after moving to the new position -->
       <animate
         xlink:href="#cursor"
         attributeName="opacity"
         from="1" to="0"
-        begin="15.5s" dur="0.1s"
+        begin="16.0s" dur="0.1s"
         fill="freeze"
       />
     </text>
