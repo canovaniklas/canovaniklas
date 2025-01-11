@@ -71,7 +71,7 @@
   <!-- CURSOR (FIRST LINE) -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="75">
-      <!-- Start underscore at x=120 -->
+      <!-- Start underscore at x=120, blinking from the beginning -->
       <tspan id="cursor1" class="cursor" x="120">_</tspan>
 
       <!-- Move cursor after each character appears (0.5s increments) -->
@@ -93,7 +93,7 @@
       <animate href="#cursor1" attributeName="x" to="460" begin="8.0s" dur="0.1s" fill="freeze" />
       <animate href="#cursor1" attributeName="x" to="465" begin="8.5s" dur="0.1s" fill="freeze" />
 
-      <!-- Fade out once the last character has appeared -->
+      <!-- Fade out once the last character has appeared (~9.0s) -->
       <animate href="#cursor1" attributeName="opacity" from="1" to="0"
                begin="9.0s" dur="0.3s" fill="freeze" />
     </text>
@@ -121,10 +121,9 @@
     <animate href="#t17" attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.1s" fill="freeze" />
   </g>
 
-  <!-- SECOND LINE: "How are you?" (same font size: 24) -->
+  <!-- SECOND LINE: "How are you?" -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="115">
-      <!-- We'll place each character ~20px apart -->
       <tspan x="140" id="h0"  opacity="0">H</tspan>
       <tspan x="160" id="h1"  opacity="0">o</tspan>
       <tspan x="180" id="h2"  opacity="0">w</tspan>
@@ -140,51 +139,59 @@
     </text>
   </g>
 
-  <!-- CURSOR (SECOND LINE) -->
+  <!-- SECOND LINE CURSOR -->
   <g fill="#FFFFFF" font-family="Courier New, monospace" font-size="24">
     <text y="115">
-      <!-- We only show this cursor AFTER the first line is finished (after 9.3s for safety) -->
+      <!-- This cursor is hidden initially (opacity=0) 
+           and only appears AFTER the first line is fully done (9.0s + a tiny delay). -->
       <tspan id="cursor2" class="cursor" x="120" opacity="0">_</tspan>
 
-      <!-- Appear at 9.3s (just after first cursor fades out) -->
-      <animate href="#cursor2" attributeName="opacity" from="0" to="1"
-               begin="9.3s" dur="0.1s" fill="freeze" />
+      <!-- Make the second cursor appear just before we start typing the second line (say at 9.3s) -->
+      <animate href="#cursor2"
+        attributeName="opacity"
+        from="0" to="1"
+        begin="9.3s" dur="0.1s"
+        fill="freeze" />
 
-      <!-- Move cursor as each char appears in 0.5s increments, starting at 9.3s + 0.5s = 9.8s -->
-      <!-- #h0 (H) at 9.3s => move cursor to x=160 at 9.8s -->
+      <!-- Move cursor in sync with second line's characters (0.5s increments) -->
+      <!-- h0 => 'H' at 9.3s => move to x=160 at 9.8s -->
       <animate href="#cursor2" attributeName="x" to="160" begin="9.8s" dur="0.1s" fill="freeze" />
-      <!-- #h1 (o) at 9.8s => move to 180 at 10.3s -->
+      <!-- h1 => 'o' at 9.8s => move to x=180 at 10.3s -->
       <animate href="#cursor2" attributeName="x" to="180" begin="10.3s" dur="0.1s" fill="freeze" />
-      <!-- #h2 (w) at 10.3s => move to 200 at 10.8s -->
+      <!-- h2 => 'w' at 10.3s => move to x=200 at 10.8s -->
       <animate href="#cursor2" attributeName="x" to="200" begin="10.8s" dur="0.1s" fill="freeze" />
-      <!-- #h3 ( ) at 10.8s => move to 220 at 11.3s -->
+      <!-- h3 => ' ' at 10.8s => move to x=220 at 11.3s -->
       <animate href="#cursor2" attributeName="x" to="220" begin="11.3s" dur="0.1s" fill="freeze" />
-      <!-- #h4 (a) at 11.3s => move to 240 at 11.8s -->
+      <!-- h4 => 'a' at 11.3s => move to x=240 at 11.8s -->
       <animate href="#cursor2" attributeName="x" to="240" begin="11.8s" dur="0.1s" fill="freeze" />
-      <!-- #h5 (r) at 11.8s => move to 260 at 12.3s -->
+      <!-- h5 => 'r' at 11.8s => move to x=260 at 12.3s -->
       <animate href="#cursor2" attributeName="x" to="260" begin="12.3s" dur="0.1s" fill="freeze" />
-      <!-- #h6 (e) at 12.3s => move to 280 at 12.8s -->
+      <!-- h6 => 'e' at 12.3s => move to x=280 at 12.8s -->
       <animate href="#cursor2" attributeName="x" to="280" begin="12.8s" dur="0.1s" fill="freeze" />
-      <!-- #h7 ( ) at 12.8s => move to 300 at 13.3s -->
+      <!-- h7 => ' ' at 12.8s => move to x=300 at 13.3s -->
       <animate href="#cursor2" attributeName="x" to="300" begin="13.3s" dur="0.1s" fill="freeze" />
-      <!-- #h8 (y) at 13.3s => move to 320 at 13.8s -->
+      <!-- h8 => 'y' at 13.3s => move to x=320 at 13.8s -->
       <animate href="#cursor2" attributeName="x" to="320" begin="13.8s" dur="0.1s" fill="freeze" />
-      <!-- #h9 (o) at 13.8s => move to 340 at 14.3s -->
+      <!-- h9 => 'o' at 13.8s => move to x=340 at 14.3s -->
       <animate href="#cursor2" attributeName="x" to="340" begin="14.3s" dur="0.1s" fill="freeze" />
-      <!-- #h10 (u) at 14.3s => move to 360 at 14.8s -->
+      <!-- h10 => 'u' at 14.3s => move to x=360 at 14.8s -->
       <animate href="#cursor2" attributeName="x" to="360" begin="14.8s" dur="0.1s" fill="freeze" />
-      <!-- #h11 (?) at 14.8s => move to 380 at 15.3s -->
+      <!-- h11 => '?' at 14.8s => move to x=380 at 15.3s -->
       <animate href="#cursor2" attributeName="x" to="380" begin="15.3s" dur="0.1s" fill="freeze" />
 
-      <!-- Fade out after last character of second line -->
-      <animate href="#cursor2" attributeName="opacity" from="1" to="0"
-               begin="15.6s" dur="0.3s" fill="freeze" />
+      <!-- Finally, fade out the second cursor once the second line is done -->
+      <animate href="#cursor2"
+        attributeName="opacity"
+        from="1" to="0"
+        begin="15.6s" dur="0.3s"
+        fill="freeze" />
     </text>
   </g>
 
   <!-- OPACITY ANIMATIONS (SECOND LINE) -->
   <g>
-    <!-- Start the second line's typing around 9.3s or 9.8s. We’ll do half-second increments again. -->
+    <!-- Start revealing second line characters at the same time 
+         the second cursor becomes visible (9.3s), in 0.5s increments. -->
     <animate href="#h0"  attributeName="opacity" from="0" to="1" begin="9.3s"  dur="0.1s" fill="freeze" />
     <animate href="#h1"  attributeName="opacity" from="0" to="1" begin="9.8s"  dur="0.1s" fill="freeze" />
     <animate href="#h2"  attributeName="opacity" from="0" to="1" begin="10.3s" dur="0.1s" fill="freeze" />
