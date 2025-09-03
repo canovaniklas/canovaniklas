@@ -3,8 +3,7 @@
 ---
 
 ## About Me
-I am a Mathematician interested in machine learning, data science, and statistics. Currently, I am pursuing a PhD in Mathematics at ETH Zurich, where I completed my Master's in 2024.
-
+I am a Mathematician interested in machine learning, data science, and statistics.
 ## (Programming) Languages
 
 | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="25px" alt="Python Logo" style="border:0;"/>](https://www.python.org/)<br>Python | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="25px" alt="C++ Logo" style="border:0;"/>](https://isocpp.org/)<br>C++ | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="25px" alt="MATLAB Logo" style="border:0;"/>](https://www.mathworks.com/products/matlab.html)<br>MATLAB | [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/latex.svg" width="25px" style="filter: invert(1); border:0;" alt="LaTeX Logo"/>](https://www.latex-project.org/)<br>LaTeX |
