@@ -2,7 +2,6 @@
 
 ---
 
-## About Me
 Somewhere in the intersection of Math and Machine Learning.
 
 ---
